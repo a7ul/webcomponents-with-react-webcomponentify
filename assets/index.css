@@ -3,10 +3,9 @@ body {
   background: #ffffff;
   padding: 10px;
 }
+
 .title {
-}
-.ex-container {
-  margin-bottom: 40px;
+  font-size: 24px;
 }
 
 .header-section {
@@ -16,4 +15,13 @@ body {
 
 .logo-img {
   width: 200px;
+}
+
+.ex-container {
+  margin-bottom: 40px;
+}
+
+.ex-comp-container {
+  padding: 10px 20px;
+  background: aliceblue;
 }

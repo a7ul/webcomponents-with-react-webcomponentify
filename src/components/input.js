@@ -16,10 +16,12 @@ export class Input extends React.Component {
     return (
       <div>
         <input
+          style="width:200px;height:40px;padding:10px;font-size:14px;border:2px solid blue;"
           type="text"
           placeholder="enter some text here"
           onChange={this.onInputEnter}
         />
+        <br />
         <br />
         <code>Value of this.state.buttonText: </code>
         {this.state.buttonText}
@@ -29,3 +31,8 @@ export class Input extends React.Component {
 }
 
 registerAsWebComponent(Input, "my-input");
+
+/*
+ In html: 
+ <my-input></my-input>
+*/
