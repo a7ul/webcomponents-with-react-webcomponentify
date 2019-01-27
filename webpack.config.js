@@ -15,7 +15,7 @@ module.exports = {
     compress: true,
     port: 9000
   },
-  devtool: "none",
+  devtool: "source-map",
   resolve: {
     alias: {
       react: "preact-compat",

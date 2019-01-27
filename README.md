@@ -1,4 +1,4 @@
-# Webcomponents Library with react-webcomponentify + React
+## Web components based components library using react-webcomponentify + React
 
 This repo showcases how you can build webcomponents using react without much bundlesize overhead.
 
@@ -16,6 +16,6 @@ Go ahead and test it out here: <a href="https://master-atul.github.io/webcompone
 
 > components include button component and input component
 
-# Why I am using Preact in the examples ?
+### Why I am using Preact in the examples ?
 
-Well I you look closely at package.json and webpack config, you will realise I am using preact here. You can go ahead and use React aswell. Everything will work as expected. Only downside is that React is a bit heavy as compared to Preact. Hence it will add to your bundle size. The example here will work 100% with React as Preact has extremely good compatibility with react.
+Well If you look closely at package.json and webpack config, you will realize I am using preact here. You can go ahead and use React aswell. Everything will work as expected. Only downside is that React is a bit heavy as compared to Preact. Hence it will add to your bundle size. The example here will work 100% with React as Preact has extremely good compatibility with react.
