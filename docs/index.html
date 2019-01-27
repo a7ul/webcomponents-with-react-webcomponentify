@@ -4,22 +4,98 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web components library using react-webcomponentify</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
 
   <body>
-    <ul>
-      <li>
-         Custom element input field: Contains react state. Start typing to see: <br/>
-        <my-input></my-input>
-        <br/>
-        <br/>
-        <br/>
-      </li>
-      <li>
-          Custom element button element that accepts props via html: <br/>
-          <my-button text="my kickass button" />
-       </li>
-    </ul>
+    <section class="header-section">
+      <h2 class="title">
+        Component library based on web-components built using React and
+        <a
+          href="https://github.com/master-atul/react-webcomponentify"
+          target="_blank"
+          >react-webcomponentify</a
+        >.
+      </h2>
+      <img class="logo-img" src="./react-webcomponent.png" alt="logo" />
+      <p>
+        Tip: You can inspect the custom elements using chrome devtools. Source
+        maps are enabled hence you can even see source code of these components
+        in action
+      </p>
+    </section>
+
+    <main>
+      <h2>List of components</h2>
+      <div class="ex-container">
+        <h3>1. component with react state: my-input</h3>
+        <p class="ex-description">
+          Custom element input field: Contains react state. Start typing to see:
+        </p>
+        <div class="ex-comp-container">
+          <h4>Live demo:</h4>
+          <!-- Custom element my-input here -->
+          <my-input></my-input>
+          <!-- ----------------------------- -->
+        </div>
+        <h4>Code:</h4>
+        <div class="ex-code-container">
+          <script src="https://gist.github.com/master-atul/5c2bf589617fff0149268a2dfb03ef8d.js"></script>
+        </div>
+      </div>
+
+      <div class="ex-container">
+        <h3>2. props passed via html attributes: my-button</h3>
+        <p class="ex-description">
+          Custom element button element that accepts props via html attributes.
+          Check console log on click.
+        </p>
+        <div class="ex-comp-container">
+          <h4>Live demo:</h4>
+          <!-- Custom element my-button here -->
+          <my-button id="my-custom-btn" text="my kickass button"></my-button>
+          <!-- ----------------------------- -->
+        </div>
+        <h4>Code:</h4>
+        <div class="ex-code-container">
+          <script src="https://gist.github.com/master-atul/7a01ebcb68764671181077dcd0b56be9.js"></script>
+          <script type="text/javascript">
+            window.onload = function() {
+              var myBtn = document.getElementById("my-custom-btn");
+              myBtn.setProps({
+                onClick: function() {
+                  console.log("my-button was clicked");
+                }
+              });
+            };
+          </script>
+        </div>
+      </div>
+      <div class="ex-container">
+        <h3>3. child html elements passed to react: my-complex-component</h3>
+        <p class="ex-description">
+          child html elements can be passed to a custom element made with react.
+          In this case those can be accessed via
+          <code>this.props.children</code> as you would in a regular react app.
+          Only caveat is that, since these child html elements are dom nodes we
+          wrap them in a wrapper react component so that react can understand
+          it.
+        </p>
+        <div class="ex-comp-container">
+          <h4>Live demo:</h4>
+          <!-- Custom element my-complex-component here -->
+          <my-complex-component text="component with children">
+            <p>I am a child element</p>
+            <div>I am another childish <button>button</button></div>
+          </my-complex-component>
+          <!-- ----------------------------- -->
+        </div>
+        <h4>Code:</h4>
+        <div class="ex-code-container">
+          <script src="https://gist.github.com/master-atul/c0ca14e9092532cc99a3f9f77ca5ec71.js"></script>
+        </div>
+      </div>
+    </main>
     <script async src="bundle.js"></script>
   </body>
 </html>
