@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web components library using react-webcomponentify</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <section class="header-section">
+      <h2 class="title">
+        Component library based on web-components built using React and
+        <a href="https://github.com/master-atul/react-webcomponentify" target="_blank">react-webcomponentify</a>.
+      </h1>
+      <img class="logo-img" src="./react-webcomponent.png" alt="logo" />
+    </section>
+    <main>
+      <div class="ex-container">
+        Custom element input field: Contains react state. Start typing to see:
+        <!-- Custom element my-input field here -->
+        <my-input></my-input>
+        <!-- ---------------------------------- -->
+      </div>
+      <div class="ex-container">
+        Custom element button element that accepts props via html:
+        <!-- Custom element my-button here -->
+        <my-button text="my kickass button"></my-button>
+        <!-- ----------------------------- -->
+      </div>
+    </main>
+    <script async src="bundle.js"></script>
+  </body>
+</html>

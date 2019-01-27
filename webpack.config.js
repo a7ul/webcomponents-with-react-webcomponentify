@@ -22,7 +22,7 @@ module.exports = {
       "react-dom": "preact-compat"
     }
   },
-  plugins: [new CopyWebpackPlugin([{ from: "index.html", to: OUTPUT_DIR }])],
+  plugins: [new CopyWebpackPlugin([{ from: "assets", to: OUTPUT_DIR }])],
   module: {
     rules: [
       {

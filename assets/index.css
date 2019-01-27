@@ -1,0 +1,19 @@
+body {
+  font-family: Helvetica, sans-serif, Arial;
+  background: #ffffff;
+  padding: 10px;
+}
+.title {
+}
+.ex-container {
+  margin-bottom: 40px;
+}
+
+.header-section {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.logo-img {
+  width: 200px;
+}
