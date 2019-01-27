@@ -24,6 +24,7 @@
   "dependencies": {
     "preact": "^8.4.2",
     "preact-compat": "^3.18.4",
+    "react-webcomponentify": "^1.2.1",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
   }
