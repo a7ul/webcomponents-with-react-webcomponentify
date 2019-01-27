@@ -1,14 +1,13 @@
 import React from "react";
 import { registerAsWebComponent } from "react-webcomponentify";
 
-const MyComplexComponent = props =>
-  console.log(props) || (
-    <div>
-      Kinda complex component 😂
-      <p>{props.text}</p>
-      <div>{props.children}</div>
-    </div>
-  );
+const MyComplexComponent = props => (
+  <div>
+    Kinda complex component 😂
+    <p>{props.text}</p>
+    <div>{props.children}</div>
+  </div>
+);
 
 registerAsWebComponent(MyComplexComponent, "my-complex-component");
 
