@@ -1,18 +1,28 @@
 var path = require("path");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+
+const OUTPUT_DIR = path.resolve(__dirname, "docs");
 
 module.exports = {
   entry: "./src/index.js",
   mode: "development",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: OUTPUT_DIR,
     filename: "bundle.js"
   },
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
+    contentBase: OUTPUT_DIR,
     compress: true,
     port: 9000
   },
   devtool: "none",
+  resolve: {
+    alias: {
+      react: "preact-compat",
+      "react-dom": "preact-compat"
+    }
+  },
+  plugins: [new CopyWebpackPlugin([{ from: "index.html", to: OUTPUT_DIR }])],
   module: {
     rules: [
       {

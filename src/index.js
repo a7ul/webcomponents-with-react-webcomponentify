@@ -1,4 +1,6 @@
-import { h, render } from "preact";
-import Widget from "./components/hello-world";
+import { Button } from "./components/button";
+import { Input } from "./components/input";
 
-render(<Widget />, document.getElementById("root"));
+// With this library and component : 9.1kb after gzip
+// without this library and only components: 7kb after gzip
+// Overhead after gzip: 2.1kb
