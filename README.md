@@ -1,6 +1,7 @@
 ## Web components based components library using react-webcomponentify + React
 
-This repo showcases how you can build web components using react without much bundlesize overhead. It uses <a href=" https://github.com/master-atul/react-webcomponentify" target="_blank">react-webcomponentify</a>.
+This repo showcases how you can build web components using react without much bundlesize overhead. It uses 
+<a href="https://github.com/master-atul/react-webcomponentify" target="_blank" >react-webcomponentify</a>.
 
 <img src="https://github.com/master-atul/react-webcomponentify/blob/master/assets/react-webcomponent.png" width="200" height="auto" alt="logo" style="display:block; margin:0 auto;"/>
 
