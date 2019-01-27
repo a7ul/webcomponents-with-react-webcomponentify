@@ -4,7 +4,7 @@ This repo showcases how you can build web components using react without much bu
 
 <img src="https://github.com/master-atul/react-webcomponentify/blob/master/assets/react-webcomponent.png" width="200" height="auto" alt="logo" style="display:block; margin:0 auto;"/>
 
-Go ahead and test it out here: <a href="https://master-atul.github.io/webcomponents-with-react-webcomponentify" alt="components library link" > Link to components libarary</a>
+Go ahead and test it out here: <a href="https://master-atul.github.io/webcomponents-with-react-webcomponentify" target="_blank" > Link to components libarary</a>
 
 **Pro Tip: Do try inspecting the elements using chrome dev tools**
 
