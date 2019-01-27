@@ -1,6 +1,7 @@
 {
-  "name": "preact-web-component",
+  "name": "web-component-library-with-react-webcomponentify",
   "version": "0.1.0",
+  "private": true,
   "description": "",
   "main": "dist/index.js",
   "scripts": {
