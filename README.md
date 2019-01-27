@@ -2,7 +2,9 @@
 
 This repo showcases how you can build webcomponents using react without much bundlesize overhead.
 
-Go ahead and test it out here: <a href="https://master-atul.github.io/webcomponents-with-react-webcomponentify" alt="components library link" > Webcomponent library with react webcomponentify with low bundlesize overhead </a>
+Go ahead and test it out here: <a href="https://master-atul.github.io/webcomponents-with-react-webcomponentify" alt="components library link" > Link to component libarary</a>
+<br/>
+**Pro Tip: Do try inspecting the elements using chrome dev tools**. You can also check the underlying code since I have enabled source maps.
 
 # How much overhead does react-webcomponentify add?
 
