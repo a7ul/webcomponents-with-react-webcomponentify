@@ -1,11 +1,11 @@
 ## Web components based components library using react-webcomponentify + React
 
 This repo showcases how you can build web components using react without much bundlesize overhead. It uses 
-<a href="https://github.com/master-atul/react-webcomponentify" target="_blank" >react-webcomponentify</a>.
+<a href="https://github.com/a7ul/react-webcomponentify" target="_blank" >react-webcomponentify</a>.
 
-<img src="https://github.com/master-atul/react-webcomponentify/blob/master/assets/react-webcomponent.png" width="200" height="auto" alt="logo" style="display:block; margin:0 auto;"/>
+<img src="https://github.com/a7ul/react-webcomponentify/blob/master/assets/react-webcomponent.png" width="200" height="auto" alt="logo" style="display:block; margin:0 auto;"/>
 
-Go ahead and test it out here: <a href="https://master-atul.github.io/webcomponents-with-react-webcomponentify" target="_blank" > Link to components libarary</a>
+Go ahead and test it out here: <a href="https://a7ul.github.io/webcomponents-with-react-webcomponentify" target="_blank" > Link to components libarary</a>
 
 **Pro Tip: Do try inspecting the elements using chrome dev tools**
 
@@ -17,7 +17,7 @@ You can also check the underlying source code in the inspector since I have enab
 
 I suggest you read here:
 
-Link to **react-webcomponentify**: https://github.com/master-atul/react-webcomponentify
+Link to **react-webcomponentify**: https://github.com/a7ul/react-webcomponentify
 
 ---
 
@@ -37,7 +37,7 @@ Link to **react-webcomponentify**: https://github.com/master-atul/react-webcompo
 
 **Installation**
 
-- Clone this repo: https://github.com/master-atul/webcomponents-with-react-webcomponentify
+- Clone this repo: https://github.com/a7ul/webcomponents-with-react-webcomponentify
 - `npm install`
 - `npm run start`
 - Add your components.
