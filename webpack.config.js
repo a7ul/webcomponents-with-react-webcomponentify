@@ -18,8 +18,8 @@ module.exports = {
   devtool: "source-map",
   resolve: {
     alias: {
-      react: "preact-compat",
-      "react-dom": "preact-compat"
+      react: "preact/compat",
+      "react-dom": "preact/compat"
     }
   },
   plugins: [new CopyWebpackPlugin([{ from: "assets", to: OUTPUT_DIR }])],
