@@ -5,8 +5,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack -p"
+    "start": "NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider webpack -p"
   },
   "keywords": [],
   "author": "Atul R <atulanand94@gmail.com>",
